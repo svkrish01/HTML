@@ -1,0 +1,32 @@
+<!--
+Developer   - Sriram Venkata Krishna
+Date        - 10-06-2025
+-->
+
+<!--HTML Paragraphs-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>HTML Paragraphs</title>
+    </head>
+
+    <body>
+        <h1>HTML Paragraphs</h1>
+
+        <hr>
+
+        <h2>Horizontal Rules, Line Breaks and Preformatted Text Element</h2>
+
+        <p>
+            A Horizontal Rule adds a Horizontal Line to the Webpage.<br>
+            A Line Break starts a new textline.
+        </p>
+
+        <pre>
+            A Preformatted Text Element preserves 
+            the text formatting for the paragraph.
+        </pre>
+    </body>
+</html>
