@@ -1,0 +1,25 @@
+<!--
+Developer   - Sriram Venkata Krishna
+Date        - 10-06-2025
+-->
+
+<!--HTML Attributes-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>HTML Attributes</title>
+    </head>
+
+    <body>
+        <h1>HTML Attributes</h1>
+
+        <img src="Image.jpg" width="250" alt="This is an Alternative for the Image (via Alternative Attribute)"><br>
+        <p>This is an Image Tag with a Source Attribute, a Width Attribute and an Alternative Attribute</p>
+
+        <a href="https://www.google.com">Visit Google (via Hyperlink Attribute)</a>
+
+        <p title="Tooltip for the Paragraph (via Title Attribute)." style="color:red;">This is a Red Paragraph (via Color Attribute)</p>
+    </body>
+</html>
