@@ -1,0 +1,42 @@
+<!--
+Developer   - Sriram Venkata Krishna
+Date        - 11-06-2025
+-->
+
+<!--HTML Styles-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>HTML Styles</title>
+    </head>
+
+    <body style="background-color:lightblue;">
+        <h1>HTML Styles</h1>
+
+        <hr>
+
+        <h2>HTML Style Attributes</h2>
+
+        <p>
+            Background Colour Attribute sets the background colour of the body.
+        </p>
+
+        <p style="color:red;">
+            Colour Attribute sets the text colour of the text element.
+        </p>
+
+        <p style="font-family:verdana;">
+            Font Family Attribute sets the font style of the text element.
+        </p>
+
+        <p style="font-size:150%;">
+            Font Size Attribute sets the font size of the text element.
+        </p>
+
+        <p style="text-align:center;">
+            Text Allignment Attribute sets the text position of the text element.
+        </p>
+    </body>
+</html>
