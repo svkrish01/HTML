@@ -1,0 +1,46 @@
+<!--
+Developer   - Sriram Venkata Krishna
+Date        - 11-06-2025
+-->
+
+<!--HTML Text Formatting-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>HTML Text Formatting</title>
+    </head>
+
+    <body style="background-color:black; font-size:150%;">
+        <h1 style="color:white; font-family: garamond; text-align:center;">HTML Formatting Elements</h1>
+
+        <hr>
+
+        <h2 style="color:white; font-family: garamond;">HTML Style Attributes</h2>
+
+        <p style="color:white; font-family: garamond;">
+            <b>This Text is Bold.</b><br>
+
+            <strong>This Text is Strong.</strong><br>
+
+            <i>This Text is Italic.</i><br>
+
+            <em>This Text is Emphasized.</em><br>
+
+            <small>This Text is Small.</small><br>
+
+            <mark>This Text is Marked.</mark><br>
+
+            <del>This Text is Deleted.</del><br>
+
+            <ins>This Text is Inserted.</ins><br>
+
+            <sub>This Text is a Subscript.</sub>
+
+            This Text is a Plain Text.
+
+            <sup>This Text is a Superscript.</sup><br>
+        </p>
+    </body>
+</html>
