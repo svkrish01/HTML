@@ -1,0 +1,57 @@
+<!--
+Developer   - Sriram Venkata Krishna
+Date        - 12-06-2025
+-->
+
+<!--HTML Quotations-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>HTML Quotations</title>
+    </head>
+
+    <body style="background-color:black; font-size:150%;">
+        <h1 style="color:white; font-family: garamond; text-align:center;">HTML Quotations</h1>
+
+        <hr>
+
+        <h2 style="color:white; font-family: garamond;">HTML Quotation and Citation Elements</h2>
+
+        <p style="color:white; font-family: garamond;">
+            'Our Impact' Quote from WWF's Website :
+        </p>
+
+        <blockquote cite="https://www.worldwildlife.org/" style="color:white; font-family: garamond;">
+            We collaborate with local communities to conserve the natural resources we all depend on and build a future in which people and nature thrive. 
+            Together with partners at all levels, we transform markets and policies toward sustainability, tackle the threats driving the climate crisis, 
+            and protect and restore wildlife and their habitats. 
+        </blockquote>
+
+        <p style="color:white; font-family: garamond;">
+            WWF's Goal is : 
+            <q>
+                Recognizing that the problems facing our planet are increasingly more complex and urgent, WWF focuses its work on six ambitious goals. 
+                Through this integrative approach, we can challenge the planet’s greatest threats and ensure a healthy future for people and nature.
+            </q>
+        </p>
+
+        <p style="color:white; font-family: garamond;">
+            The <abbr title="Worldwide Wildlife Fund">WWF</abbr> was founded in 1961.
+        </p>
+
+        <p style="color:white; font-family: garamond;">
+            <cite>The WWF</cite> was established in Morges, Switzerland.
+        </p>
+
+        <address style="color:white; font-family: garamond;">
+            Compiled by<br>
+            Sriram Venkata Krishna<br>
+            Contact Details :<br>
+            svKrish01@gmail.com<br>
+            Visakhapatnam,<br>
+            Andhra Pradesh, India.
+        </address>
+    </body>
+</html>
