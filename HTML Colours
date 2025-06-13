@@ -1,0 +1,51 @@
+<!--
+Developer   - Sriram Venkata Krishna
+Date        - 13-06-2025
+-->
+
+<!--HTML Colours-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>HTML Colours</title>
+    </head>
+
+    <body style="background-color:black; font-size:150%; border: 2px solid white">
+        <h1 style="color:white; font-family: garamond; text-align:center;">HTML Colours</h1>
+
+        <hr>
+
+        <h2 style="color:white; font-family: garamond;">HTML Colour Styles</h2>
+
+        <p style="color:white; font-family: garamond;">
+            HTML has Background Colour, Text Colour and Border Colour Styles.
+        </p>
+
+        <p style="color:white; font-family: garamond;">
+            Colours ar expressed in various forms.<br>
+            HTML recognizes 140 Standard Colour Names.<br>
+        </p>
+
+        <p style="color:white; font-family: garamond;">
+            RGB Colour Values are expressed as "rgb(0-255, 0-255, 0-255)"<br>
+            HEX Colour Values are expressed from '#000000' to '#ffffff'<br>
+            HSL Colour Values are expressed as "hsl(0-100%, 0-100%, 0-100%)"<br>
+        </p>
+
+        <p style="color:white; font-family: garamond;">
+            Both RGB and HSL Values Support Transparency Coefficient <em>Alpha</em> with an extension<br>
+            "rgba(0-255, 0-255, 0-255, 0-1)" and "hsla(0-100%, 0-100%, 0-100%, 0-1)"
+        </p><hr>
+
+        <address style="color:white; font-family: garamond; font-size:80%">
+            Compiled by,<br>
+            Sriram Venkata Krishna<br>
+            Contact Details :<br>
+            svKrish01@gmail.com<br>
+            Visakhapatnam,<br>
+            Andhra Pradesh, India.
+        </address>
+    </body>
+</html>
