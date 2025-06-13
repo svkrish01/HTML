@@ -1,0 +1,79 @@
+<!--
+Developer   - Sriram Venkata Krishna
+Date        - 13-06-2025
+-->
+
+<!--HTML CSS-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>HTML CSS</title>
+
+        <style>
+            body    {background-color:black; font-size:150%; border: 2px solid white}
+
+            h1      {color:white; font-family: garamond; text-align:center;}
+            h2      {color:white; font-family: garamond; padding: 20px;}
+            p       {color:white; font-family: garamond; padding: 30px; margin: 50px; border: 2px solid white}
+
+            address {color:white; font-family: garamond; padding: 10px; font-size:80%}
+        </style>
+    </head>
+
+    <body>
+        <h1>HTML CSS</h1>
+
+        <hr>
+
+        <h2>HTML Styles - Internal CSS</h2>
+        <p>
+            CSS Stands for <b>Cascading Style Sheets</b>.<br>
+        </p>
+        <p>
+            An Internal CSS is used to define a style for a single HTML Page.
+        </p>
+
+        <h2>
+            CSS Colors, Fonts and Sizes
+        </h2>
+        <p>
+            The <b>CSS Colour</b> property defines the Colour of the Text Element.<br>
+            The <b>CSS Font</b> property defines the Font Style of the Text Element.<br>
+            The <b>CSS Size</b> property defines the Size of the Text Element.
+        </p>
+
+        <h2>
+            CSS Border
+        </h2>
+        <p>
+            The <b>CSS Border</b> property defines a border around the Text Element.
+        </p>
+
+        <h2>
+            CSS Padding
+        </h2>
+        <p>
+            The <b>CSS Padding</b> property defines a padding around between the margin and the border.
+        </p>
+
+        <h2>
+            CSS Margin
+        </h2>
+        <p>
+            The <b> CSS Margin</b> property defines a margin outside the border.
+        </p>
+
+        <hr>
+
+        <address>
+            Compiled by,<br>
+            Sriram Venkata Krishna<br>
+            Contact Details :<br>
+            svKrish01@gmail.com<br>
+            Visakhapatnam,<br>
+            Andhra Pradesh, India.
+        </address>
+    </body>
+</html>
