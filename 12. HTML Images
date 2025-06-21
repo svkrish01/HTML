@@ -1,0 +1,141 @@
+<!--
+Developer   - Sriram Venkata Krishna
+Date        - 21-06-2025
+-->
+
+<!--HTML Images-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>HTML Images</title>
+
+        <style>
+            body
+            {
+                background-image: url('Background_Red.png'); 
+                background-repeat: no-repeat;
+                background-attachment: fixed; 
+                background-size: 100% 100%;
+
+                font-size:150%; border: 2px solid white;
+            }
+
+            p
+            {
+                color:white; 
+                background-color:rgba(128, 128, 128, 1); 
+                font-family: garamond; 
+                padding: 30px; 
+                margin: 50px; 
+                border: 1px solid grey; 
+                overflow: auto;
+            }
+
+            h1      {color:white; font-family: garamond; text-align:center;}
+            h2      {color:white; font-family: garamond; padding: 20px;}
+            button  {font-family: garamond; padding: 10px; margin: 20px; border: 2px solid white;}
+            img     {padding: 10px}
+
+            a:link      {color:lightblue; background-color: transparent; text-decoration: none}
+            a:hover     {color:blue; background-color: transparent; text-decoration: none}
+            a:active    {color:lightgreen; background-color: transparent; text-decoration: underline}
+            a:active    {color:pink; background-color: transparent; text-decoration: underline}
+
+            address {color:white; font-family: garamond; padding: 10px; font-size:80%}
+        </style>
+    </head>
+
+    <body>
+        <h1 id="Heading">HTML Images</h1>
+
+        <hr>
+
+        <h2>Image Floating</h2>
+        <p>
+            CSS Float Property allows the Image to float to the Left or to the Right of a text.
+        </p>
+
+        <p>
+            <img src="Image.jpg" alt="Left Float Image" style="float:left" width="210" height="150">
+            <img src="Image.jpg" alt="Right Float Image" style="float:right" width="210" height="150">
+            The Left Float Image is to the Left and the Right Float Image is to the Right.
+        </p>
+
+        <h2>
+            Image Maps
+        </h2>
+        <p>
+            Image Maps allow us to declare clickable areas within a given Image by declaring the coordinated of the clickable areas with 
+            respect to the Image's Pixel Coordinates.
+        </p>
+
+        <p>
+            <img src="Image_Workplace.jpg" alt="Workplace Image" usemap="#Workplace_Map" width="400" height="379">
+        </p>
+
+        <map name="Workplace_Map">
+            <area shape="rect" coords="34,44, 270,350" alt="Computer" onclick="Click_Workplace_Computer()">
+            <area shape="rect" coords="290,172, 333,250" alt="Mobile" onclick="Click_Workplace_Mobile()">
+            <area shape="circle" coords="337,300,44" alt="Coffee" onclick="Click_Workplace_Coffee()">
+        </map>
+
+        <script>
+            function Click_Workplace_Computer()
+            {
+                alert("You clicked the Computer");
+            }
+
+            function Click_Workplace_Mobile()
+            {
+                alert("You clicked the Mobile");
+            }
+
+            function Click_Workplace_Coffee()
+            {
+                alert("You clicked the Coffee Cup");
+            }
+        </script>
+
+        <h2>
+            Background Images
+        </h2>
+        <p>
+            The Background Image attribute sets the Background of a given text element as the sourced Image
+        </p>
+
+        <p>
+            The <b>Background Repeat</b> Property decides wether the Images repeats itself or not.<br>
+            The <b>Image Attachment</b> Property decides wether the Background is fixed or not.<br>
+            The <b>Image Size</b> Property decides the scale of the Background.
+        </p>
+
+        <h2>
+            HTML Link Colours
+        </h2>
+        <p>
+            The CSS for a Link allows us to define different state styles of the links.
+        </p>
+
+        <p>
+            The <b>Link Style</b> defines the initial style of the Link.<br>
+            The <b>Visited Style</b> defines the style of the Link after visiting it.<br>
+            The <b>Hover Style</b> defines the style of the Link while hovering over it.<br>
+            The <b>Active Style</b> defines the style of the Link while visiting it.<br>
+        </p>
+
+        <a href="#Heading"><button>Scroll back to the Top</button></a>
+
+        <hr>
+
+        <address>
+            Developed by,<br>
+            Sriram Venkata Krishna<br>
+            Contact Details :<br>
+            svKrish01@gmail.com<br>
+            Visakhapatnam,<br>
+            Andhra Pradesh, India.
+        </address>
+    </body>
+</html>
