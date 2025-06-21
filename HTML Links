@@ -1,0 +1,95 @@
+<!--
+Developer   - Sriram Venkata Krishna
+Date        - 20-06-2025
+-->
+
+<!--HTML Links-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>HTML Links</title>
+
+        <style>
+            body    {background-color:black; font-size:150%; border: 2px solid white}
+
+            h1      {color:white; font-family: garamond; text-align:center;}
+            h2      {color:white; font-family: garamond; padding: 20px;}
+            p       {color:white; font-family: garamond; padding: 30px; margin: 50px; border: 2px solid white}
+            button  {font-family: garamond; padding: 10px; margin: 20px; border: 2px solid white;}
+
+            a:link      {color:lightblue; background-color: transparent; text-decoration: none}
+            a:hover     {color:blue; background-color: transparent; text-decoration: none}
+            a:active    {color:lightgreen; background-color: transparent; text-decoration: underline}
+            a:active    {color:pink; background-color: transparent; text-decoration: underline}
+
+            address {color:white; font-family: garamond; padding: 10px; font-size:80%}
+        </style>
+    </head>
+
+    <body>
+        <h1 id="Heading">HTML Links - Hyperlinks</h1>
+
+        <hr>
+
+        <h2>HTML Links - Syntax</h2>
+        <p>
+            &lt;a&gt; tag defines a hyperlink.
+        </p>
+        <p>
+            The Target attribute specifies where to open the linked document.
+        </p>
+
+        <h2>
+            Different Target Attributes
+        </h2>
+        <p>
+            The <a href="https://www.google.com/" target="_self">Self</a> Target Attribute opens the document in the same Window/Tab.<br>
+            The <a href="https://www.google.com/" target="_blank">Blank</a> Target Attribute opens the document in a new Window or Tab.<br>
+            The <a href="https://www.google.com/" target="_parent">Parent</a> Target Attribute opens the document in the Parent Frame.<br>
+            The <a href="https://www.google.com/" target="_top">Top</a> Target Attribute opens the document in the Fullbody of the Window.<br>
+        </p>
+
+        <h2>
+            Button as a Link.
+        </h2>
+        <p>
+            The Button Tag is used to make Clickable Text Element on the Webpage.<br>
+            <a href="https://www.google.com/"><button>This is a Button</button></a>
+        </p>
+
+        <h2>
+            HTML Link Colours
+        </h2>
+        <p>
+            The CSS for a Link allows us to define different state styles of the links.
+        </p>
+
+        <p>
+            The <b>Link Style</b> defines the initial style of the Link.<br>
+            The <b>Visited Style</b> defines the style of the Link after visiting it.<br>
+            The <b>Hover Style</b> defines the style of the Link while hovering over it.<br>
+            The <b>Active Style</b> defines the style of the Link while visiting it.<br>
+        </p>
+
+        <h2>
+            HTML Bookmarks
+        </h2>
+        <p>
+            The <b>HTML Bookmarks</b> are declared using the 'ID' attribute.<br>
+            <a href="#Heading"><button>Scroll back to the Top</button></a>
+        </p>
+
+        <hr>
+
+        <address>
+            Compiled by,<br>
+            Sriram Venkata Krishna<br>
+            Contact Details :<br>
+            svKrish01@gmail.com<br>
+            Visakhapatnam,<br>
+            Andhra Pradesh, India.
+        </address>
+    </body>
+</html>
