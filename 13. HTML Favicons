@@ -1,0 +1,76 @@
+<!--
+Developer   - Sriram Venkata Krishna
+Date        - 21-06-2025
+-->
+
+<!--HTML Favicons-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>HTML Favicons</title>
+
+        <link rel="icon" type="image/x-icon" href="Favicon_SVK.png">
+
+        <style>
+            body
+            {
+                background-image: url('Background_Red.png'); 
+                background-repeat: no-repeat;
+                background-attachment: fixed; 
+                background-size: 100% 100%;
+
+                font-size:150%; border: 2px solid white;
+            }
+
+            p
+            {
+                color:white; 
+                background-color:rgba(128, 128, 128, 1); 
+                font-family: garamond; 
+                padding: 30px; 
+                margin: 50px; 
+                border: 1px solid grey; 
+                overflow: auto;
+            }
+
+            h1      {color:white; font-family: garamond; text-align:center;}
+            h2      {color:white; font-family: garamond; padding: 20px;}
+            button  {font-family: garamond; padding: 10px; margin: 20px; border: 2px solid white;}
+            img     {padding: 10px}
+
+            a:link      {color:lightblue; background-color: transparent; text-decoration: none}
+            a:hover     {color:blue; background-color: transparent; text-decoration: none}
+            a:active    {color:lightgreen; background-color: transparent; text-decoration: underline}
+            a:active    {color:pink; background-color: transparent; text-decoration: underline}
+
+            address {color:white; font-family: garamond; padding: 10px; font-size:80%}
+        </style>
+    </head>
+
+    <body>
+        <h1 id="Heading">HTML Favicons</h1>
+
+        <hr>
+
+        <h2>HTML Favicons</h2>
+        <p>
+            A <b>Favicon</b> is an Image displayed to the left of the page title in the browser tab.<br>
+            It is done with the help of <b>Link</b> Element which is declared after the <b>Title</b> Element.
+        </p>
+
+        <a href="#Heading"><button>Scroll back to the Top</button></a>
+
+        <hr>
+
+        <address>
+            Developed by,<br>
+            Sriram Venkata Krishna<br>
+            Contact Details :<br>
+            svKrish01@gmail.com<br>
+            Visakhapatnam,<br>
+            Andhra Pradesh, India.
+        </address>
+    </body>
+</html>
