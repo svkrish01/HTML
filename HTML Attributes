@@ -15,7 +15,7 @@ Date        - 10-06-2025
     <body>
         <h1>HTML Attributes</h1>
 
-        <img src="Image.jpg" width="250" alt="This is an Alternative for the Image (via Alternative Attribute)"><br>
+        <img src="Image.jpg" width="250" height="400" alt="This is an Alternative for the Image (via Alternative Attribute)"><br>
         <p>This is an Image Tag with a Source Attribute, a Width Attribute and an Alternative Attribute</p>
 
         <a href="https://www.google.com">Visit Google (via Hyperlink Attribute)</a>
