@@ -1,0 +1,218 @@
+<!--
+Developer   - Sriram Venkata Krishna
+Date        - 25-06-2025
+-->
+
+<!--HTML Tables-->
+
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>HTML Tables</title>
+
+        <link rel="icon" type="image/x-icon" href="Favicon_SVK.png">
+
+        <style>
+            body
+            {
+                background-image: url('Background_Red.png'); 
+                background-repeat: no-repeat;
+                background-attachment: fixed; 
+                background-size: 100% 100%;
+                font-size:150%; border: 2px solid white;
+            }
+
+            p
+            {
+                color:white; 
+                background-color:rgba(128, 128, 128, 0.8); 
+                font-family: garamond; 
+                padding: 30px; 
+                margin: 50px; 
+                border: 5px solid darkgray; 
+                border-radius: 5px;
+                border-style: double;
+                overflow: auto;
+            }
+
+            table, th, td
+            {
+                color:white;  
+                font-family: garamond; 
+                margin-left: auto; 
+                margin-right: auto; 
+                border: 1px solid white; 
+                text-align: center;
+                overflow: auto;
+            }
+            table       {background-color: lightcoral; padding: 2px}
+            th          {background-color: rgb(150, 25, 25); padding: 5px}
+            td          {background-color: rgb(175, 50, 50); padding: 5px}
+            th:hover    {background-color: rgb(200, 75, 75);}
+            td:hover    {background-color: rgb(225, 100, 100);}
+
+            h1      {color:white; font-family: garamond; text-align:center;}
+            h2      {color:white; font-family: garamond; padding: 20px; text-decoration: underline;}
+            button  {font-family: garamond; padding: 10px; margin: 20px; border: 2px solid white;}
+            img     {padding: 10px}
+
+            a:link      {color:lightblue; background-color: transparent; text-decoration: none}
+            a:hover     {color:blue; background-color: transparent; text-decoration: none}
+            a:active    {color:lightgreen; background-color: transparent; text-decoration: underline}
+            a:active    {color:pink; background-color: transparent; text-decoration: underline}
+
+            address {color:white; font-family: garamond; padding: 10px; font-size:80%}
+        </style>
+    </head>
+
+    <body>
+        <h1 id="Heading">HTML Tables</h1>
+
+        <hr>
+
+        <h2>HTML Tables</h2>
+        <p>
+            HTML Tables allows the Developer to arrange data into Rows and Columns on the HTML Page formatted as a <b>Table.</b>
+        </p>
+
+        
+        <table style="width: 70%">
+            <caption><b>Sample Table 1</b></caption>
+
+            <tr>
+                <th>Country</th>
+                <th>Capital</th>
+                <th>Continent</th>
+            </tr>
+
+            <tr>
+                <td>India</td>
+                <td>New Delhi</td>
+                <td>Asia</td>
+            </tr>
+
+            <tr>
+                <td>Italy</td>
+                <td>Rome</td>
+                <td>Europe</td>
+            </tr>
+
+            <tr>
+                <td>South Africa</td>
+                <td>Cape Town</td>
+                <td>Africa</td>
+            </tr>
+        </table>
+        <hr>
+
+        <h2>Table Contents</h2>
+        <p>
+            Each Cell is defined by the <b>&lt;td&gt;</b> Tag.<br>
+            Each Row is defined by the <b>&lt;tr&gt;</b> Tag.<br>
+            Table Headers are defined by the <b>&lt;th&gt;</b> Tag.<br>
+            Table Caption can be set with the <b>&lt;caption&gt;</b> Tag.<br>
+        </p>
+        <hr>
+
+        <h2>Table Borders</h2>
+        <p>
+            The Table itself, the Header Cells and the Content Cells all have individual borders.<br>
+            All three of them can have their CSS declared individually with unique attributes like Borders and Background colours.
+        </p>
+
+        <p>
+            The <b>Border Color</b> Attribute sets the Border Colour.<br>
+            The <b>Border Style</b> Attribute sets the Border Style.
+        </p>
+        <hr>
+
+        <h2>Table Sizes</h2>
+        <p>
+            The <b>Width</b> Attribute in Percentage declares the relative Width occupied by the table with respect to the body.<br>
+            The <b>Width</b> Attribute for a given Header Cell declares the Width occupied by the entire row or Column.<br>
+            The <b>Height</b> Attribute for a given row in Pixels declares the Height of the Row.
+        </p>
+        <hr>
+
+        <h2>Table Headers</h2>
+        <p>
+            Table Headers can be initialised as both Column headers or row headers usign the &lt;th&gt; tag.<br>
+            Table Headers can also span over several Columns using the &lt;colspan&gt; Tag and over several Rows using the &lt;rowspan&lt; Tag<br>
+        </p>
+
+        <p>
+            The <b>Table Caption</b> is a heading given to the table declared via &lt;caption&gt; Tag.
+        </p>
+
+        <h2>Table Padding and Spacing</h2>
+        <p>
+            The Cells of HTML Table have Padding which is set to 0px by default which can be changed by the <b>Padding</b> Property.<br>
+            The Cell Spacing between the Cells is set to 2px by default and can be changed with the <b>Border Spacing</b> Property.
+        </p>
+        <hr>
+
+        <h2>Table Styling</h2>
+        <p>
+            A given Row or column or Cell can be styled with a Hover Colour using the <b>Hover</b> property in the CSS.<br>
+            Alternate Rows or Columns can be individually Styled using the <b>:nth-child(even)</b> tag in the CSS.<br>
+            The &lt;colgroup&gt; tag can be used to address a group of columns seperately in CSS.
+        </p>
+        <hr>
+
+        <table style="width: 70%">
+            <caption><b>Sample Table 2</b></caption>
+
+            <tr>
+                <th></th>
+                <th>Country</th>
+                <th>Capital</th>
+                <th>Continent</th>
+            </tr>
+
+            <tr>
+                <th>1</th>
+                <td>India</td>
+                <td>New Delhi</td>
+                <td>Asia</td>
+            </tr>
+
+            <tr>
+                <th>2</th>
+                <td>Italy</td>
+                <td>Rome</td>
+                <td>Europe</td>
+            </tr>
+
+            <tr>
+                <th rowspan="3">3</th>
+                <td rowspan="3">South Africa</td>
+                <td>Cape Town</td>
+                <td rowspan="3">Africa</td>
+            </tr>
+
+            <tr>
+                <td>Pretoria</td>
+            </tr>
+
+            <tr>
+                <td>Bloemfontein</td>
+            </tr>
+        </table>
+        <hr>
+
+
+        <a href="#Heading"><button>Scroll back to the Top</button></a>
+
+        <hr>
+
+        <address>
+            Developed by,<br>
+            Sriram Venkata Krishna<br>
+            Contact Details :<br>
+            svKrish01@gmail.com<br>
+            Visakhapatnam,<br>
+            Andhra Pradesh, India.
+        </address>
+    </body>
+</html>
