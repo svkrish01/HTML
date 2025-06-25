@@ -144,6 +144,7 @@ Date        - 25-06-2025
         <p>
             The <b>Table Caption</b> is a heading given to the table declared via &lt;caption&gt; Tag.
         </p>
+        <hr>
 
         <h2>Table Padding and Spacing</h2>
         <p>
@@ -199,7 +200,6 @@ Date        - 25-06-2025
                 <td>Bloemfontein</td>
             </tr>
         </table>
-        <hr>
 
 
         <a href="#Heading"><button>Scroll back to the Top</button></a>
